@@ -42,14 +42,10 @@ The python script accepts following arguments:
 ## Benchmarks
 I have tried to draw a comparison between various different proecisons of the downloaded model. Please refer the images below.
 
-1. Model Loading Time:
-![Model Loading Time](loading_time.png)
+Model Loading Time          |   Model Inference Time   | Frames per second
+:-------------------------:|:-------------------------:|:-------------------------:
+![](loading_time.png)  |  ![](Inference_time.png)       |  ![](Fps.png)
 
-2. Model Inference Time:
-![Model Loading Time](Inference_time.png)
-
-3. Frames per second:
-![Model Loading Time](Fps.png)
 
 
 ## Results
