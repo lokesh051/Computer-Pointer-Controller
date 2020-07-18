@@ -12,11 +12,17 @@ To better understand the structure of this project here is the architecture diag
 Follow the steps below:
 
 Step 1: Install openvino 2020.1
+
 Step 2: Create a vitual environment and activate it
+
 Step 3: Install the dependencies by running the command 'pip install -r requirements.txt'
+
 Step 4: Download the models from openvino using the model downloader. Eg: './downloader.py --name face-detection-retail-0004 --precisions FP16,INT8'. Refer: https://docs.openvinotoolkit.org/latest/_tools_downloader_README.html
+
 Step 5: Now source your openvino environment using this command 'source /opt/intel/openvino/bin/setupvars.sh'
+
 Steo 5: Run the main.py file with the arguments
+
 Step 6: Observe the output in the project directory
 
 ## Demo
